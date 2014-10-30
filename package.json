@@ -1,0 +1,20 @@
+{
+  "name": "berks-hub",
+  "version": "0.0.1",
+  "description": "Berkshelf API index service for GitHub release assets",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jmanero/berks-hub.git"
+  },
+  "keywords": [
+    "berkshelf",
+    "berkshelf-api",
+    "github"
+  ],
+  "author": "John Manero <john.manero@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmanero/berks-hub/issues"
+  },
+  "homepage": "https://github.com/jmanero/berks-hub"
+}
