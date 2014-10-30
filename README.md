@@ -10,12 +10,15 @@ release with two file artifacts:
    `knife cookbook metadata from file metadata.rb`.
  * `cookbook.tar.gz` The tar-balled cookbook, with a root folder matching the
     cookbook name, e.g.
-      jmanero@DixieFlatline: ~/workspace/berks-hub $ tar -tzf ubuntu.tar.gz
-      ./ubuntu/
-      ./ubuntu/metadata.json
-      ./ubuntu/metadata.rb
-      ./ubuntu/recipes/
-      ./ubuntu/templates/
-      ./ubuntu/templates/default/
-      ./ubuntu/templates/default/sources.list.erb
-      ./ubuntu/recipes/default.rb
+
+   ```
+   jmanero@DixieFlatline: ~/workspace/berks-hub $ tar -tzf ubuntu.tar.gz
+   ./ubuntu/
+   ./ubuntu/metadata.json
+   ./ubuntu/metadata.rb
+   ./ubuntu/recipes/
+   ./ubuntu/templates/
+   ./ubuntu/templates/default/
+   ./ubuntu/templates/default/sources.list.erb
+   ./ubuntu/recipes/default.rb
+   ```
